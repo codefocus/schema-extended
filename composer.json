@@ -1,5 +1,5 @@
 {
-    "name": "rafis/schema-extended",
+    "name": "gabrielem/schema-extended",
     "description": "Extended Schema builder for Laravel 5 (currently only MySQL)",
     "keywords": ["laravel","illuminate","schema","blueprint","mysql"],
     "license": "MIT",
