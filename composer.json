@@ -3,6 +3,8 @@
     "description": "Extended Schema builder for Laravel 5 (currently only MySQL)",
     "keywords": ["laravel","illuminate","schema","blueprint","mysql"],
     "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable" : true,
     "require": {
         "php": ">=5.4.0",
         "illuminate/database": "~5.0"
