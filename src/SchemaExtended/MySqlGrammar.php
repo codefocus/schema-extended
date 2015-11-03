@@ -28,6 +28,19 @@ class MySqlGrammar extends IlluminateMySqlGrammar {
             array_splice($this->modifiers, array_search('After', $this->modifiers) - 1, 0, 'Comment');
         }
     }
+    
+    
+    /**
+    * Create the column definition for a geometry type.
+    *
+    * @param  \Illuminate\Support\Fluent  $column
+    * @return string
+    */
+    protected function typeGeometry(Fluent $column)
+    {
+        return $column->geotype;
+    }
+    
 
     /**
      * Get the SQL for a "comment" column modifier.
