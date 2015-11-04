@@ -1,3 +1,8 @@
+Fork
+--------------
+This is just a fork to add geometry element to the Laravel Schema.
+Tanks to rafis
+
 What it gives?
 --------------
 
